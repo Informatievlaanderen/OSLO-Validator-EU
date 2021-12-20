@@ -21,7 +21,7 @@
     "@govflanders/vl-ui-textarea": "3.12.33",
     "@govflanders/vl-ui-titles": "3.12.33",
     "@govflanders/vl-ui-tooltip": "3.12.33",
-    "@govflanders/vl-ui-upload": "3.12.33",
+    "@govflanders/vl-ui-upload": "9.0.10",
     "@govflanders/vl-ui-vue-components": "8.0.2",
     "core-js": "3.19.3",
     "filereader-stream": "2.0.0",
