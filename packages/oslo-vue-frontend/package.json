@@ -41,7 +41,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.5.19",
     "@vue/cli-service": "4.5.19",
-    "husky": "7.0.4",
+    "husky": "8.0.1",
     "sass-loader": "^10.2.0",
     "vue-template-compiler": "2.7.10"
   }
