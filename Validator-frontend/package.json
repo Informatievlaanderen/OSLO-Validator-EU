@@ -22,7 +22,7 @@
     "@govflanders/vl-ui-upload": "3.12.33",
     "@govflanders/vl-ui-vue-components": "3.11.0",
     "core-js": "3.25.5",
-    "node-sass": "4.14.1",
+    "node-sass": "7.0.3",
     "rdfxml-streaming-parser": "1.5.0",
     "sass-loader": "8.0.2",
     "stream": "0.0.2",
