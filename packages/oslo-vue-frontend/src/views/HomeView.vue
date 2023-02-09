@@ -50,7 +50,7 @@ import InputComponentVue from "../components/InputComponent.vue";
 import SelectComponentVue from "../components/SelectComponent.vue";
 import UploadComponent from "../components/UploadComponent.vue";
 import config from "../config";
-import store from "../store/store";
+import { store } from "../store/store";
 
 const RdfaParser = require("rdfa-streaming-parser").RdfaParser;
 const fileReaderStream = require("filereader-stream");

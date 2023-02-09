@@ -57,7 +57,8 @@ export default {
     }
   },
   async mounted() {
-    const response = await fetch(process.env.CONFIGURATION_URL);
+    const response = await fetch(process.env.VUE_APP_CONFIGURATION_URL);
+    //const response = await fetch('https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Validator-EU/dev/packages/oslo-itb-rdf-validator/resources/applicatieprofielen/config.properties');
     const data = await response.text(); //get github config.properties content as text
 
     var obj = {};

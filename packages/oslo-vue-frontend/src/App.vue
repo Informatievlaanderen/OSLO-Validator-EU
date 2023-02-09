@@ -34,6 +34,8 @@ export default {
 
 <style lang="scss">
 $vl-icon-font-location: "../assets/";
+$vl-font-location: "../assets/font/flanders/";
+
 @import "~@govflanders/vl-ui-core/src/scss/core";
 @import "~@govflanders/vl-ui-content-header/src/scss/content-header";
 @import "~@govflanders/vl-ui-tabs/src/scss/tabs";
@@ -49,4 +51,6 @@ $vl-icon-font-location: "../assets/";
 @import "~@govflanders/vl-ui-link/src/scss/link";
 @import "~@govflanders/vl-ui-spotlight/src/scss/spotlight";
 @import "~@govflanders/vl-ui-tooltip/src/scss/tooltip";
+
+@import "~@govflanders/vl-ui-util/src/scss/util";
 </style>

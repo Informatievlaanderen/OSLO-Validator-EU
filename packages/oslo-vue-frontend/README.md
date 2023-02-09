@@ -18,7 +18,7 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-To deploy the validator on data.vlaanderen.be 3 variables in env have to configured:
+To deploy the validator on data.vlaanderen.be 3 variables in `env.template` have to configured:
 ```
 VUE_APP_FRONTEND_PATH=/shacl-validator
 VUE_APP_BACKEND_PATH=/shacl-validator-backend
@@ -26,3 +26,7 @@ VUE_APP_HOSTNAME_URL=http://data.dev-vlaanderen.be
 ```
 
 This file is copied by the Dockerfile configuration into build process.
+
+### TODO
+ - move the .env configuration CONFIGURATION_URL to javascript configs in directory /config
+ - make the docker build more incremental
