@@ -13,7 +13,7 @@
       max-files-msg="Je mag maar 1 bestand tegelijk uploaden"
       max-filesize="20000000"
       max-filesize-msg="Het bestand mag max 20000000 zijn."
-      allowed-file-types=".ttl, .rdf, .xml, .json, .jsonld, .html"
+      allowed-file-types=".ttl, .rdf, .xml, .json, .jsonld, .html, .nt"
       @upload-file-added="fileAdded"
     />
   </div>

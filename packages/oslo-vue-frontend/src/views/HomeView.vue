@@ -129,7 +129,10 @@ export default {
         case "xml":
           return "application/rdf+xml";
 
-        case ".nt":
+        case "rdf":
+          return "application/rdf+xml";
+
+        case "nt":
           return "application/n-triples";
       }
     },
