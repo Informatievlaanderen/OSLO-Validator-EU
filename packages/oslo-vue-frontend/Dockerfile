@@ -1,5 +1,5 @@
 #FROM node:lts-alpine
-FROM node:14.18.2-alpine3.13 as builder
+FROM node:16.13.1-alpine3.13 as builder
 
 
 RUN apk add gettext
@@ -38,7 +38,7 @@ RUN cp -r node_modules/@govflanders/vl-ui-util/dist/font assets/
 RUN npm run build
 
 
-FROM node:14.18.2-alpine3.13 
+FROM node:16.13.1-alpine3.13 
 
 RUN npm install -g http-server
 
